@@ -1,0 +1,47 @@
+.user-card {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    transition: all 0.2s;
+    
+  }
+  .link1{
+    text-decoration: none;
+    color: #000000;
+  }
+  .user-card:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-card.dark {
+    background-color: #1f2937;
+    color: white;
+  }
+  
+  .user-card.light {
+    background-color: white;
+  }
+  
+  .user-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 0px;
+    
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .user-info:last-child {
+    margin-bottom: 0;
+  }
+  
+  .user-text {
+    font-size: 0.875rem;
+  }
