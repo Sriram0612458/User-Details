@@ -102,7 +102,6 @@ const UserDetail = () => {
 
                         <div className="info-section">
                             <div className="company-info">
-
                                 <div className='company-logo'>
                                     <Building2 className="text-orange-500" size={20} />
                                     <h3 className="company-name">{user.company.name}</h3>
