@@ -1,13 +1,13 @@
 import { Mail, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useTheme } from '/Users/sriramnelluri/Desktop/wisdom/wisdom-app/src/context/ThemeContext.jsx';
+import { useTheme } from '../../context/ThemeContext.jsx';
 import './UserCard.css';
 
 const UserCard = ({ user }) => {
     const { isDarkMode } = useTheme();
 
     return (
-        <Link to={`/user/${user.id}`} className="link1">
+        <Link to={`/user/${user.id}`} className="link">
             <div className={`user-card ${isDarkMode ? 'dark' : 'light'}`}>
                 <h2 className="user-name">{user.name}</h2>
                 <div className="user-info">

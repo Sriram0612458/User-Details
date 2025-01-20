@@ -1,6 +1,6 @@
 import { Search } from 'lucide-react';
-import { useTheme } from '/Users/sriramnelluri/Desktop/wisdom/wisdom-app/src/context/ThemeContext.jsx';
-import { useUsers } from '/Users/sriramnelluri/Desktop/wisdom/wisdom-app/src/context/UserContext.jsx';
+import { useTheme } from '../../context/ThemeContext.jsx';
+import { useUsers } from '../../context/UserContext.jsx';
 import './SearchBar.css';
 
 const SearchBar = () => {

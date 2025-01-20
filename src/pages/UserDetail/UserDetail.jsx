@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { useTheme } from '/Users/sriramnelluri/Desktop/wisdom/wisdom-app/src/context/ThemeContext.jsx';
+import { useTheme } from '../../context/ThemeContext.jsx';
 import {
     ArrowLeft,
     Mail,

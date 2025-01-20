@@ -1,6 +1,6 @@
 import { Loader, AlertCircle, Sun, Moon } from 'lucide-react';
-import { useTheme } from '/Users/sriramnelluri/Desktop/wisdom/wisdom-app/src/context/ThemeContext.jsx';
-import { useUsers } from '/Users/sriramnelluri/Desktop/wisdom/wisdom-app/src/context/UserContext.jsx';
+import { useTheme } from '../../context/ThemeContext.jsx';
+import { useUsers } from '../../context/UserContext.jsx';
 import SearchBar from '/Users/sriramnelluri/Desktop/wisdom/wisdom-app/src/components/SearchBar/SearchBar.jsx';
 import UserCard from '/Users/sriramnelluri/Desktop/wisdom/wisdom-app/src/components/UserCard/UserCard.jsx';
 import Pagination from '/Users/sriramnelluri/Desktop/wisdom/wisdom-app/src/components/PageNations/PageNations.jsx';
