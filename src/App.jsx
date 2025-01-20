@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { ThemeProvider } from './context/ThemeContext';
-import { UserProvider } from './context/UserContext';
+import { ThemeProvider } from './context/ThemeContext.jsx';
+import { UserProvider } from './context/UserContext.jsx';
 import Home from './pages/Home/Home.jsx';
 import UserDetail from './pages/UserDetail/UserDetail.jsx';
 
