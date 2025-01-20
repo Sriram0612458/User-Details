@@ -1,9 +1,9 @@
 import { Loader, AlertCircle, Sun, Moon } from 'lucide-react';
 import { useTheme } from '../../context/ThemeContext.jsx';
 import { useUsers } from '../../context/UserContext.jsx';
-import SearchBar from '/Users/sriramnelluri/Desktop/wisdom/wisdom-app/src/components/SearchBar/SearchBar.jsx';
-import UserCard from '/Users/sriramnelluri/Desktop/wisdom/wisdom-app/src/components/UserCard/UserCard.jsx';
-import Pagination from '/Users/sriramnelluri/Desktop/wisdom/wisdom-app/src/components/PageNations/PageNations.jsx';
+import SearchBar from '../../components/SearchBar/SearchBar.jsx';
+import UserCard from '../../components/UserCard/UserCard.jsx';
+import Pagination from '../../components/PageNations/PageNations.jsx';
 
 import './Home.css';
 

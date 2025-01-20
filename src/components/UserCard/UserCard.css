@@ -5,43 +5,43 @@
     margin-bottom: 1rem;
     transition: all 0.2s;
     
-  }
-  .link1{
+}
+.link{
     text-decoration: none;
     color: #000000;
-  }
-  .user-card:hover {
+}
+.user-card:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+}
   
-  .user-card.dark {
+.user-card.dark {
     background-color: #1f2937;
     color: white;
-  }
+}
   
-  .user-card.light {
+.user-card.light {
     background-color: white;
-  }
+}
   
-  .user-name {
+.user-name {
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
     margin-top: 0px;
     
-  }
+}
   
-  .user-info {
+.user-info {
     display: flex;
     align-items: center;
     gap: 0.5rem;
     margin-bottom: 0.5rem;
-  }
+}
   
-  .user-info:last-child {
+.user-info:last-child {
     margin-bottom: 0;
-  }
+}
   
-  .user-text {
+.user-text {
     font-size: 0.875rem;
   }
